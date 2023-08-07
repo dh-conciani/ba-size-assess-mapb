@@ -141,14 +141,3 @@ ggplot(data= hist_mean, mapping= aes(x= time, y= as.numeric(rel_diff), fill= as.
                                          label= paste0('T4-T1: ', round(as.numeric(abs_diff), digits=1), ' ha',
                                                        ' (', rel_diff, '%', ')')),
            col= 'purple4', size=3, hjust=0.6)
-
-
-
-
-
-
-
-
-
-
-
